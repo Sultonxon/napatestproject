@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NapaProjects.OnlineMarket", "NapaProjects.OnlineMarket\NapaProjects.OnlineMarket.csproj", "{15A5004B-C07E-41CC-84B4-11C63064994B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NapaProjects.DAL", "NapaProjects.DAL\NapaProjects.DAL.csproj", "{CE0B4E41-2DBB-41D3-8B85-910A25341B96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15A5004B-C07E-41CC-84B4-11C63064994B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A5004B-C07E-41CC-84B4-11C63064994B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A5004B-C07E-41CC-84B4-11C63064994B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A5004B-C07E-41CC-84B4-11C63064994B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0B4E41-2DBB-41D3-8B85-910A25341B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0B4E41-2DBB-41D3-8B85-910A25341B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0B4E41-2DBB-41D3-8B85-910A25341B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0B4E41-2DBB-41D3-8B85-910A25341B96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06A7EE55-086D-4AFF-915A-CF71A8780A89}
+	EndGlobalSection
+EndGlobal

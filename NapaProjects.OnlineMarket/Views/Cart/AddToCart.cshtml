@@ -1,0 +1,15 @@
+﻿<div class="p-2 bg-success" style="color: white;">
+    <h3>
+        Add To Cart
+    </h3>
+</div>
+
+<form method="post" asp-action="AddToCart">
+    <input type="hidden" name="returnUrl" value="@ViewBag.ReturnUrl"/>
+    <input type="hidden" name="productId" value="@ViewBag.ProductId"/>
+    <div class="form-group">
+        <label for="quantity">Quantity</label>
+        <input type="number" name="quantity" />
+    </div>
+    <button class="btn btn-primary" type="submit">Save</button>
+</form>

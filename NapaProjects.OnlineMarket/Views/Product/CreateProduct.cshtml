@@ -1,0 +1,66 @@
+﻿@model ProductModel
+
+
+<div class="p-2 bg-primary" style="color: white;">
+    <h3>
+        Add Product 
+    </h3>
+</div>
+
+<form method="post" asp-action="CreateProduct">
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="Price">Price</label>
+        <input asp-for="Price" class="form-control" />
+    </div>
+    
+    <div class="form-group " id="selectCategory">
+        <label asp-for="CategoryId">Category</label>
+        <select asp-for="CategoryId" class="form-control" asp-items="@ViewBag.SelectList">
+
+        </select>
+    </div>
+    
+    <div class="form-group row collapse" id="newCategory">
+        <div class="col-5">
+            <label asp-for="NewCategoryName">new category name</label>
+            <input type="text" asp-for="NewCategoryName" class="form-control" />
+        </div>
+        <div class="col-5">
+            <label asp-for="NewCategoryDescription">new category description</label>
+            <input type="text" asp-for="NewCategoryDescription" class="form-control" />
+        </div>
+    </div>
+    <div class="form-group">
+        <select asp-for="CategoryCheck" id="categoryCheck">
+            <option value="false">Use exist category</option>
+            <option value="true">Create a new category</option>
+        </select>
+        <label for="categoryCheck">Create a new Category</label>
+    </div>
+    <input type="hidden" name="returnUrl" value="@ViewBag.ReturnUrl" />
+    <div class="form-group m-1">
+        <button type="submit" class="btn btn-primary">
+            Create
+        </button>
+        <a href="@ViewBag.ReturnUrl" class="btn btn-outline-danger">Cancel</a>
+    </div>
+</form>
+
+<script>
+    $( "#categoryCheck" ).change(function(){
+        if($(this).val() === "true"){
+            $( "#selectCategory" ).addClass("collapse");
+            $( "#newCategory" ).removeClass( "collapse" );
+        }
+        else{
+            $( "#newCategory" ).addClass( "collapse" );
+            $( "#selectCategory" ).removeClass( "collapse" );
+        }
+    });
+
+    console.log("scriipt loaded");
+</script>

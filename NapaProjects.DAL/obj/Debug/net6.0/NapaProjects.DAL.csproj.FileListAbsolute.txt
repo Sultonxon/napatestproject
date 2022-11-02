@@ -1,0 +1,14 @@
+C:\Users\qudra\source\repos\NapaProjects\NapaProjects.DAL\bin\Debug\net6.0\NapaProjects.DAL.deps.json
+C:\Users\qudra\source\repos\NapaProjects\NapaProjects.DAL\bin\Debug\net6.0\NapaProjects.DAL.runtimeconfig.json
+C:\Users\qudra\source\repos\NapaProjects\NapaProjects.DAL\bin\Debug\net6.0\NapaProjects.DAL.dll
+C:\Users\qudra\source\repos\NapaProjects\NapaProjects.DAL\bin\Debug\net6.0\NapaProjects.DAL.pdb
+C:\Users\qudra\source\repos\NapaProjects\NapaProjects.DAL\obj\Debug\net6.0\NapaProjects.DAL.csproj.AssemblyReference.cache
+C:\Users\qudra\source\repos\NapaProjects\NapaProjects.DAL\obj\Debug\net6.0\NapaProjects.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qudra\source\repos\NapaProjects\NapaProjects.DAL\obj\Debug\net6.0\NapaProjects.DAL.AssemblyInfoInputs.cache
+C:\Users\qudra\source\repos\NapaProjects\NapaProjects.DAL\obj\Debug\net6.0\NapaProjects.DAL.AssemblyInfo.cs
+C:\Users\qudra\source\repos\NapaProjects\NapaProjects.DAL\obj\Debug\net6.0\NapaProjects.DAL.csproj.CoreCompileInputs.cache
+C:\Users\qudra\source\repos\NapaProjects\NapaProjects.DAL\obj\Debug\net6.0\NapaProjects.DAL.dll
+C:\Users\qudra\source\repos\NapaProjects\NapaProjects.DAL\obj\Debug\net6.0\refint\NapaProjects.DAL.dll
+C:\Users\qudra\source\repos\NapaProjects\NapaProjects.DAL\obj\Debug\net6.0\NapaProjects.DAL.pdb
+C:\Users\qudra\source\repos\NapaProjects\NapaProjects.DAL\obj\Debug\net6.0\NapaProjects.DAL.genruntimeconfig.cache
+C:\Users\qudra\source\repos\NapaProjects\NapaProjects.DAL\obj\Debug\net6.0\ref\NapaProjects.DAL.dll

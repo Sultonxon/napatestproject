@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NapaProjects.OnlineMarket.props" />
+</Project>

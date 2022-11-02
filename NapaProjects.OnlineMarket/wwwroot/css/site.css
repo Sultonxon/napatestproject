@@ -1,0 +1,43 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.collapse{
+    visibility: hidden;
+}
+
+.home-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-item{
+    justify-content: space-between;
+    width: 40%;
+    background-color:aquamarine;
+    margin: 20px;
+}
+
+.home-item a{
+    text-decoration:none;
+    font-size: 40px;
+}
+
+.home-item p{
+    opacity: 80%;
+}

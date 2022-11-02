@@ -1,0 +1,9 @@
+﻿global using Microsoft.AspNetCore.Identity;
+global using Microsoft.EntityFrameworkCore;
+global using NapaProjects.DAL.Models;
+global using NapaProjects.DAL.Repositories;
+global using Microsoft.AspNetCore.Mvc;
+global using NapaProjects.OnlineMarket.Models;
+global using NapaProjects.OnlineMarket.Infrastructure;
+global using System.Security.Claims;
+global using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;

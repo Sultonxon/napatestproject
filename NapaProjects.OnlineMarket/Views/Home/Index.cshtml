@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+
+
+<div class="home-container">
+    <div class="home-item">
+        <a asp-action="ProductList" asp-controller="Product">
+            Products
+        </a>
+    </div>
+    <div class="home-item">
+        <a asp-action="CartView" asp-controller="Cart" asp-route-returnUrl="@Context.PathAndQuery()">
+            My Cart
+        </a>
+    </div>
+    @if(User.isAdmin()){
+        <div class="home-item">
+            <a asp-action="Users" asp-controller="Login">
+                Administration
+            </a>
+            <p> This part appears only for Administrator</p>
+            <p> This part contains capability to manage Users</p>
+        </div>
+
+        <div class="home-item">
+            <a asp-action="Index" asp-controller="History">
+                Product History
+            </a>
+            <p> This part appears only for Administrator</p>
+
+            <p> This part contains all history about products</p>
+        </div>
+    }
+</div>
+
+
+
+
+
+
+<!--
+
+<form method="post">
+    <input type="text" value="@Context.PathAndQuery()" name="returnUrl" />
+
+    <a class="btn btn-danger" style="font-size: 30px;" asp-action="Migration">
+        Migration
+    </a>
+
+    @if (Context.User.Identity.IsAuthenticated)
+    {
+        <button class="btn btn-outline-danger" asp-action="SignOut" asp-controller="Login" type="submit">
+            LogOut
+        </button>
+    }
+</form>
+-->

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<UserModel>
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>First Name</th><th>Last Name</th><th>User Name</th><th>Email</th><th>Phone  Number</th><th>Roles</th><th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.FirstName</td>
+                <td>@user.LastName</td>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>@user.PhoneNumber</td>
+                <td>@user.Roles.ToContent()</td>
+                <td>
+                    <form asp-action="DeleteUser" method="post">
+                        <input type="hidden" value="@Context.PathAndQuery()" name="returnUrl" />
+                        <input type="hidden" value="@user.UserName" name="userName">
+                        <button type="submit" class="btn btn-danger">Delete User</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="CreateUser" asp-route-returnUrl="@Context.PathAndQuery()" class="btn btn-primary col-6">
+    Create a new User
+</a>
